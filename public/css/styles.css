@@ -821,6 +821,10 @@ select{
   max-width: t;
 }
 
+.max-w-\[770px\]{
+  max-width: 770px;
+}
+
 .grid-cols-5{
   grid-template-columns: repeat(5, minmax(0, 1fr));
 }
@@ -875,6 +879,10 @@ select{
 
 .gap-7{
   gap: 1.75rem;
+}
+
+.gap-9{
+  gap: 2.25rem;
 }
 
 .gap-y-3{
@@ -1091,6 +1099,10 @@ select{
   padding-bottom: 3.5rem;
 }
 
+.pb-2{
+  padding-bottom: 0.5rem;
+}
+
 .text-left{
   text-align: left;
 }
@@ -1147,6 +1159,15 @@ select{
   line-height: 2.5rem;
 }
 
+.text-6xl{
+  font-size: 3.75rem;
+  line-height: 1;
+}
+
+.text-\[58px\]{
+  font-size: 58px;
+}
+
 .font-bold{
   font-weight: 700;
 }
@@ -1157,6 +1178,10 @@ select{
 
 .font-normal{
   font-weight: 400;
+}
+
+.leading-\[70px\]{
+  line-height: 70px;
 }
 
 .text-dark-violet{
@@ -1182,6 +1207,11 @@ select{
 .text-gray-700{
   --tw-text-opacity: 1;
   color: rgb(55 65 81 / var(--tw-text-opacity));
+}
+
+.text-gray-400{
+  --tw-text-opacity: 1;
+  color: rgb(156 163 175 / var(--tw-text-opacity));
 }
 
 .text-opacity-40{
@@ -1364,6 +1394,11 @@ select{
   color: rgb(72 43 231 / var(--tw-text-opacity));
 }
 
+.hover\:text-dark-violet:hover{
+  --tw-text-opacity: 1;
+  color: rgb(30 14 98 / var(--tw-text-opacity));
+}
+
 .hover\:text-opacity-100:hover{
   --tw-text-opacity: 1;
 }
@@ -1486,12 +1521,20 @@ select{
     gap: 2.5rem;
   }
 
+  .md\:gap-8{
+    gap: 2rem;
+  }
+
   .md\:border-transparent{
     border-color: transparent;
   }
 
   .md\:p-0{
     padding: 0px;
+  }
+
+  .md\:pb-20{
+    padding-bottom: 5rem;
   }
 
   .md\:text-7xl{
@@ -1501,6 +1544,11 @@ select{
 
   .md\:text-\[42px\]{
     font-size: 42px;
+  }
+
+  .md\:text-5xl{
+    font-size: 3rem;
+    line-height: 1;
   }
 
   .md\:hover\:border-gray-400:hover{
@@ -1545,6 +1593,18 @@ select{
   .lg\:text-left{
     text-align: left;
   }
+
+  .lg\:text-\[58px\]{
+    font-size: 58px;
+  }
+
+  .lg\:leading-\[70px\]{
+    line-height: 70px;
+  }
+
+  .lg\:leading-\[52px\]{
+    line-height: 52px;
+  }
 }
 
 @media (min-width: 1280px){
@@ -1578,9 +1638,5 @@ select{
 
   .xl\:gap-10{
     gap: 2.5rem;
-  }
-
-  .xl\:justify-self-start{
-    justify-self: start;
   }
 }
