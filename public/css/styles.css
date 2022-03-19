@@ -743,6 +743,10 @@ select{
   margin-bottom: 1rem;
 }
 
+.mb-5{
+  margin-bottom: 1.25rem;
+}
+
 .block{
   display: block;
 }
@@ -793,20 +797,36 @@ select{
   max-width: 300px;
 }
 
+.max-w-\[\]{
+  max-width: ;
+}
+
+.max-w-\[720\]{
+  max-width: 720;
+}
+
 .max-w-\[720px\]{
   max-width: 720px;
+}
+
+.max-w-sm{
+  max-width: 24rem;
 }
 
 .max-w-\[550px\]{
   max-width: 550px;
 }
 
-.max-w-\[470px\]{
-  max-width: 470px;
+.max-w-\[120\]{
+  max-width: 120;
 }
 
-.max-w-\[\]{
-  max-width: ;
+.max-w-\[120px\]{
+  max-width: 120px;
+}
+
+.max-w-\[470px\]{
+  max-width: 470px;
 }
 
 .max-w-\[560px\]{
@@ -823,6 +843,22 @@ select{
 
 .max-w-\[770px\]{
   max-width: 770px;
+}
+
+.max-w-\[940\]{
+  max-width: 940;
+}
+
+.max-w-\[840\]{
+  max-width: 840;
+}
+
+.max-w-\[840px\]{
+  max-width: 840px;
+}
+
+.max-w-\[960px\]{
+  max-width: 960px;
 }
 
 .grid-cols-5{
@@ -847,6 +883,10 @@ select{
 
 .flex-col{
   flex-direction: column;
+}
+
+.items-start{
+  align-items: flex-start;
 }
 
 .items-center{
@@ -912,6 +952,10 @@ select{
        column-gap: 1.25rem;
 }
 
+.gap-y-12{
+  row-gap: 3rem;
+}
+
 .justify-self-end{
   justify-self: end;
 }
@@ -940,8 +984,24 @@ select{
   border-width: 2px;
 }
 
+.border{
+  border-width: 1px;
+}
+
+.border-4{
+  border-width: 4px;
+}
+
 .border-b{
   border-bottom-width: 1px;
+}
+
+.border-t{
+  border-top-width: 1px;
+}
+
+.border-b-2{
+  border-bottom-width: 2px;
 }
 
 .border-gray-100{
@@ -1079,6 +1139,14 @@ select{
   padding-bottom: 5rem;
 }
 
+.pb-1{
+  padding-bottom: 0.25rem;
+}
+
+.pb-12{
+  padding-bottom: 3rem;
+}
+
 .pb-8{
   padding-bottom: 2rem;
 }
@@ -1135,9 +1203,19 @@ select{
   line-height: 1;
 }
 
+.text-7xl{
+  font-size: 4.5rem;
+  line-height: 1;
+}
+
 .text-sm{
   font-size: 0.875rem;
   line-height: 1.25rem;
+}
+
+.text-3xl{
+  font-size: 1.875rem;
+  line-height: 2.25rem;
 }
 
 .text-\[42px\]{
@@ -1147,11 +1225,6 @@ select{
 .text-base{
   font-size: 1rem;
   line-height: 1.5rem;
-}
-
-.text-3xl{
-  font-size: 1.875rem;
-  line-height: 2.25rem;
 }
 
 .text-4xl{
@@ -1374,6 +1447,11 @@ select{
   border-color: rgb(156 163 175 / var(--tw-border-opacity));
 }
 
+.hover\:border-light-violet:hover{
+  --tw-border-opacity: 1;
+  border-color: rgb(72 43 231 / var(--tw-border-opacity));
+}
+
 .hover\:bg-gray-100:hover{
   --tw-bg-opacity: 1;
   background-color: rgb(243 244 246 / var(--tw-bg-opacity));
@@ -1384,6 +1462,11 @@ select{
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
+.hover\:bg-light-violet:hover{
+  --tw-bg-opacity: 1;
+  background-color: rgb(72 43 231 / var(--tw-bg-opacity));
+}
+
 .hover\:text-green:hover{
   --tw-text-opacity: 1;
   color: rgb(37 218 197 / var(--tw-text-opacity));
@@ -1392,6 +1475,11 @@ select{
 .hover\:text-light-violet:hover{
   --tw-text-opacity: 1;
   color: rgb(72 43 231 / var(--tw-text-opacity));
+}
+
+.hover\:text-white:hover{
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
 .hover\:text-dark-violet:hover{
@@ -1441,16 +1529,24 @@ select{
     grid-column: span 2 / span 2;
   }
 
+  .sm\:flex{
+    display: flex;
+  }
+
   .sm\:max-w-\[300px\]{
     max-width: 300px;
+  }
+
+  .sm\:max-w-\[120px\]{
+    max-width: 120px;
   }
 
   .sm\:max-w-\[350px\]{
     max-width: 350px;
   }
 
-  .sm\:max-w-\[120px\]{
-    max-width: 120px;
+  .sm\:max-w-\[170px\]{
+    max-width: 170px;
   }
 
   .sm\:grid-cols-3{
@@ -1509,6 +1605,10 @@ select{
     align-items: center;
   }
 
+  .md\:justify-start{
+    justify-content: flex-start;
+  }
+
   .md\:justify-end{
     justify-content: flex-end;
   }
@@ -1523,6 +1623,22 @@ select{
 
   .md\:gap-8{
     gap: 2rem;
+  }
+
+  .md\:border-r{
+    border-right-width: 1px;
+  }
+
+  .md\:border-r-2{
+    border-right-width: 2px;
+  }
+
+  .md\:border-b{
+    border-bottom-width: 1px;
+  }
+
+  .md\:border-b-0{
+    border-bottom-width: 0px;
   }
 
   .md\:border-transparent{
@@ -1549,6 +1665,21 @@ select{
   .md\:text-5xl{
     font-size: 3rem;
     line-height: 1;
+  }
+
+  .md\:placeholder-blue-200::-moz-placeholder{
+    --tw-placeholder-opacity: 1;
+    color: rgb(191 219 254 / var(--tw-placeholder-opacity));
+  }
+
+  .md\:placeholder-blue-200:-ms-input-placeholder{
+    --tw-placeholder-opacity: 1;
+    color: rgb(191 219 254 / var(--tw-placeholder-opacity));
+  }
+
+  .md\:placeholder-blue-200::placeholder{
+    --tw-placeholder-opacity: 1;
+    color: rgb(191 219 254 / var(--tw-placeholder-opacity));
   }
 
   .md\:hover\:border-gray-400:hover{
@@ -1638,5 +1769,9 @@ select{
 
   .xl\:gap-10{
     gap: 2.5rem;
+  }
+
+  .xl\:justify-self-start{
+    justify-self: start;
   }
 }
