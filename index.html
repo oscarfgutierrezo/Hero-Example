@@ -197,8 +197,60 @@
         </main>
     </section>
     <div class="divider"></div>
+    <section class="hero-06">
+        <div class="relative">
+            <header class="container px-5 py-5 grid grid-cols-5 gap-y-3 sm:px-10 lg:absolute lg:top-0 lg:left-1/2 lg:-translate-x-1/2 lg:py-10 lg:z-10">
+                <div class="col-span-4 flex justify-start items-center md:col-span-1 lg:order-2 lg:justify-center">
+                    <a href="#" class="text-2xl font-bold text-dark-violet lg:text-white">Startup 3</a>
+                </div>
+                <button class="w-fit p-3 flex justify-self-end text-xl text-dark-violet rounded-lg hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 md:hidden" data-collapse-toggle="mobile-menu-12" type="button" aria-controls="mobile-menu-12" aria-expanded="false">
+                    <i class="fa-solid fa-bars"></i>
+                </button>
+                <nav class="hidden col-span-5 md:block md:col-span-4 lg:col-span-2 lg:order-1" id="mobile-menu-12">
+                    <ul class="h-full flex flex-col text-lg font-medium text-dark-violet md:flex-row md:justify-end md:items-center md:gap-8 lg:justify-start lg:text-white">
+                        <li><a class="py-2 pl-3 block border-b border-gray-100 hover:bg-gray-100 md:p-0 md:border-transparent md:hover:border-white md:hover:bg-transparent" href="#">Products</a></li>
+                        <li><a class="py-2 pl-3 block border-b border-gray-100 hover:bg-gray-100 md:p-0 md:border-transparent md:hover:border-white md:hover:bg-transparent" href="#">Pricing</a></li>
+                        <li><a class="py-2 pl-3 block border-b border-gray-100 hover:bg-gray-100 md:p-0 md:border-transparent md:hover:border-white md:hover:bg-transparent" href="#">Community</a></li>
+                    </ul>
+                </nav>
+                <div class="col-span-5 flex flex-col justify-end gap-2 sm:flex-row lg:col-span-2 lg:order-3">
+                    <button class="px-5 py-1 text-lg font-medium text-dark-violet border-2 border-transparent rounded-full hover:text-green hover:border-green transition-all duration-100 lg:text-white">Sign In</button>
+                    <button class="px-5 py-1 text-lg font-medium text-white bg-green border-2 border-green rounded-full hover:text-green hover:bg-white transition-all duration-100">Sign Up</button>
+                </div>
+            </header>
+            <div class="relative lg:order-1">
+                <video id="video-06" src="./public/video/head-06.mp4"></video>
+                <button id="btn-video-06" class="absolute left-1/2 -translate-x-1/2 top-1/2 -translate-y-1/2 lg:hidden" onclick="myFunction()">
+                    <i id="play-icon-06" class="fa-solid fa-play fa-pause px-6 py-4 text-xl text-white bg-red rounded-full"></i>
+                </button>
+            </div>
+            <main class="container my-10 px-5 sm:px-10 lg:absolute lg:top-[60%] lg:-translate-y-1/2 lg:left-1/2 lg:-translate-x-1/2 lg:my-0 lg:flex lg:flex-col lg:items-center lg:gap-y-10 xl:gap-y-12 2xl:gap-y-20">
+                <h1 class="pb-7 text-center text-4xl font-bold text-dark-violet md:text-5xl lg:pb-0 lg:text-white xl:max-w-[830px] xl:text-[58px] xl:leading-[70px]">A high-quality solution for those who want a beautiful startup website quickly</h1>
+                <button id="btn-video-06" class="hidden lg:block" onclick="myFunction()">
+                    <i id="play-icon-06" class="fa-solid fa-play fa-pause px-6 py-4 text-xl text-white bg-red rounded-full"></i>
+                </button>
+                <p class="text-center text-lg font-medium leading-7 text-dark-violet lg:max-w-[513px] lg:h-24 lg:text-white xl:h-[210px]">We made it so beutiful and simple. It combines landings, pages, blogs and shop screens. It is definitely the tool you need in your collection!</p>
+            </main>
+        </div>
+    </section>
+    <div class="divider"></div>
 
     <script src="https://unpkg.com/flowbite@1.3.4/dist/flowbite.js"></script>
+
+    <!-- button/video hero-06 -->
+        <script>
+            var video = document.getElementById("video-06");
+            var btn = document.getElementById("btn-video-06");
+            var icon = document.getElementById("play-icon-06");
+            function myFunction() {
+                if (video.paused) {
+                    video.play();
+                } else {
+                    video.pause();
+                }
+                icon.classList.toggle("fa-play");
+            }
+        </script>
 
 </body>
 </html>

@@ -11,6 +11,7 @@ module.exports = {
         "light-violet": "#482BE7",
         "green": "#25DAC5",
         "primary": "#2F1893",
+        "red": "#EA3223",
       },
       fontFamily: {
         "sans": "DM Sans"
