@@ -16,6 +16,9 @@ module.exports = {
       fontFamily: {
         "sans": "DM Sans"
       },
+      backgroundImage: {
+        hero13: 'url("../img/hero-13_01.png")',
+      },
     },
   },
   plugins: [
