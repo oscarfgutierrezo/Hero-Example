@@ -898,6 +898,14 @@ select{
   max-width: 153px;
 }
 
+.max-w-\[371px\]{
+  max-width: 371px;
+}
+
+.max-w-\[420px\]{
+  max-width: 420px;
+}
+
 .-translate-x-1\/2{
   --tw-translate-x: -50%;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
@@ -974,6 +982,10 @@ select{
 
 .gap-10{
   gap: 2.5rem;
+}
+
+.gap-14{
+  gap: 3.5rem;
 }
 
 .gap-y-3{
@@ -1235,6 +1247,10 @@ select{
   padding-bottom: 1.25rem;
 }
 
+.pb-6{
+  padding-bottom: 1.5rem;
+}
+
 .text-left{
   text-align: left;
 }
@@ -1280,6 +1296,10 @@ select{
 .text-3xl{
   font-size: 1.875rem;
   line-height: 2.25rem;
+}
+
+.text-\[22px\]{
+  font-size: 22px;
 }
 
 .font-bold{
@@ -1615,6 +1635,14 @@ select{
     max-width: 280px;
   }
 
+  .sm\:max-w-\[153px\]{
+    max-width: 153px;
+  }
+
+  .sm\:max-w-\[275px\]{
+    max-width: 275px;
+  }
+
   .sm\:grid-cols-3{
     grid-template-columns: repeat(3, minmax(0, 1fr));
   }
@@ -1784,6 +1812,14 @@ select{
   .md\:text-5xl{
     font-size: 3rem;
     line-height: 1;
+  }
+
+  .md\:text-\[58px\]{
+    font-size: 58px;
+  }
+
+  .md\:leading-\[70px\]{
+    line-height: 70px;
   }
 
   .md\:text-opacity-40{
