@@ -12,6 +12,8 @@ module.exports = {
         "green": "#25DAC5",
         "primary": "#2F1893",
         "red": "#EA3223",
+        "pink": "#E93A7D",
+        "blue": "#1DA1F2",
       },
       fontFamily: {
         "sans": "DM Sans"
