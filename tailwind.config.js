@@ -22,6 +22,7 @@ module.exports = {
         hero13: 'url("../img/hero-13_01.png")',
         hero16: 'url("../img/hero-16_01.png")',
         hero18: 'url("../img/hero-18_01.png")',
+        hero22: 'url("../img/hero-22.png")',
       },
     },
   },
